@@ -1,0 +1,6 @@
+[ISSUE] 
+	- Error: failed to fetch an image or build from source: error connecting to docker: failed building options: failed probing "personal": context deadline exceeded
+[SOLVE]
+	- Off the bat, since this error points towards a connectivity issue, you might try running fly wireguard reset or fly wireguard websockets enable to see if that helps.
+
+
